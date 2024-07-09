@@ -1,0 +1,220 @@
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('images/wallpaper2.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+/* text css above hero image */
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+/* about section image css */
+.imageAboutPage {
+    width: auto;
+    border-radius: 50%;
+    height: 20em;
+}
+
+/*skill section css*/
+
+.servicesText.card {
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.servicesIcon {
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+    color: #007bff;
+
+    margin-bottom: 15px;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.card:hover .servicesIcon {
+    color: #0056b3;
+    transform: scale(1.1);
+
+}
+
+.servicesText:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.navbarScroll.navbarDark {
+    background: rgba(0, 0, 0, 0.8);
+    transition: background 0.3s ease;
+}
+
+#services {
+    padding: 60px 0;
+
+}
+
+#services h1 {
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #333;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+/* spacing on all sections */
+#about,
+#services,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+
+
+/* Contact section CSS */
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#contact .form-group h5 {
+    color: white;
+}
+
+#contact .form-control {
+    margin-bottom: 1rem;
+}
+
+#contact .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+#contact .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.navbarScroll.navbarDark {
+    background: black;
+}
+
+body {
+    background-color: rgb(115, 114, 114) !important;
+}
+
+#about {
+    font-family: 'Roboto', sans-serif;
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+/*project css*/
+#portfolio .card {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio .card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.btn-sm {
+    margin-right: 5px;
+}
+
+.project-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.project-details.show {
+    max-height: 500px;
+    /* Adjust as needed */
+}
+
+.read-more:focus {
+    box-shadow: none;
+}
